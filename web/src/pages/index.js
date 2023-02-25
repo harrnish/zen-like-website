@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const IndexPage = () => (
   <>
-    <h1>Welcome to "TechHub-Blog" Project</h1>
+    <h1>zen-like</h1>
     <h2>
-      - by{' '}
+      - by{" "}
       <a
         href="https://youtube.com/webcifarOfficial"
         target="_blank"
