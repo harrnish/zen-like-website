@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+![techhub-blog](./banner.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TechHub-Blog
 
-## Available Scripts
+A complete blog website created with `JAMstack`. ([Gatsby.js](https://www.gatsbyjs.org/) & [Sanity.io](https://sanity.io)).
 
-In the project directory, you can run:
+Made with ❤️ by [Shaif Arfan][arfan-ig]
 
-### `npm start`
+- Live Preview: [http://techhub-blog.vercel.app/][preview]
+- YouTube Tutorial: [Coming Soon][wc-yt]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Details
 
-### `npm test`
+TechHub-blog is a complete tech blog website. Here we will see three post types: `blogs`, `categories`, and `authors`. We will create relations between these three post types. So that we can create a blog post with a category and an author. Also we will make a `search feature` where we can search against all these three post types.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To create this website we will use `JAMstack`. We will use `Gatsby.js` for the frontend and `Sanity.io` for the headless CMS. And to source our content we will use `graphql`.
 
-### `npm run build`
+## What we are going to learn/use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
+- [Gatsby.js](https://www.gatsbyjs.org/)
+  - [Gatsby-plugin-image](https://www.gatsbyjs.org/packages/gatsby-plugin-image/)
+    - Static Image & Gatsby Image
+  - Gatsby Page
+    - Normal Pages
+    - how to create pages programmatically
+  - Gatsby Pagination
+  - [Gatsby-plugin-local-search](https://www.gatsbyjs.org/packages/gatsby-plugin-local-search/)
+  - [GraphQL](https://graphql.org/)
+    - Static Query & Page Query
+- [Sanity.io](https://sanity.io/)
+  - Sanity Schema
+  - Custom Blocks
+    - Custom Rich-text Block to Write Blog
+    - Custom Code Block
+  - Studio Customization
+- [React-PortableText](https://github.com/portabletext/react-portabletext)
+- [Axios](https://www.npmjs.com/package/axios)
+- Many More...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Basic knowledge of HTML, CSS, and JavaScript
+- Experience with React.js
 
-### `npm run eject`
+## Starter files
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can find all the starter files in starter-files branch. You can to go to the starter-files branch and download zip the the starter files or You can clone the project and git checkout to starter-files branch.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can follow our complete youtube tutorial [Coming Soon]
+or You can clone the project and git checkout to starter-files branch to get started.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tools Used
 
-## Learn More
+- Images: Unsplash
+- UI Design: Figma
+- Code Editor: VS Code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Other projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📚 [All Web Cifar Projects][wc-projects]
 
-### Code Splitting
+## FAQ
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Q: How can i get started?
 
-### Analyzing the Bundle Size
+You can get started by following the YouTube tutorial of this project. Here is the full tutorial video link: [coming soon].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Q: I can use this project for my website?
 
-### Making a Progressive Web App
+Yes you can. It absolutely free to use.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Feedback
 
-### Advanced Configuration
+If you have any feedback, please reach out to us at [@web_cifar][wc-yt]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Support
 
-### Deployment
+For support, join our [Community Group][wc-fb-group].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+[MIT][mit]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Coding! ✨🚀
+
+[preview]: http://techhub-blog.vercel.app/
+[wc-yt]: http://www.youtube.com/webcifarOfficial
+[arfan-ig]: https://www.instagram.com/shaifarfan08/
+[wc-projects]: https://github.com/ShaifArfan/wc-project-tutorials
+[wc-fb-group]: https://www.facebook.com/groups/webcifar
+[mit]: https://choosealicense.com/licenses/mit/
