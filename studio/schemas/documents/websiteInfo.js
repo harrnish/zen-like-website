@@ -1,10 +1,10 @@
-import { GoFile } from "react-icons/go";
+import { AiOutlineGlobal } from "react-icons/ai";
 
 export default {
   title: "Website Info", // blog post
   name: "website", // blog
   type: "document",
-  icon: GoFile,
+  icon: AiOutlineGlobal,
   fields: [
     {
       title: "Title",
@@ -26,9 +26,36 @@ export default {
       type: "date",
     },
     {
+      title: "Categories",
+      name: "categories",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "category" }],
+        },
+      ],
+    },
+    {
       title: "Preview",
       name: "preview",
       type: "previewImage",
+    },
+    {
+      title: "URL",
+      name: "siteUrl",
+      type: "url",
+    },
+    {
+      title: "Tags",
+      name: "tags",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "tag" }],
+        },
+      ],
     },
   ],
   preview: {
