@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SearchFieldStyles = styled.label`
   position: relative;
@@ -9,7 +9,7 @@ export const SearchFieldStyles = styled.label`
     padding: 1rem;
     border-radius: 4px;
     color: var(--darkBlue);
-    font-family: Poppins;
+    font-family: "Neue Montreal" !important;
     border: none;
     outline: none;
     &:focus {

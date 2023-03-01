@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ParagraphTextStyles = styled.p`
-  font-family: 'Inter', sans-serif;
+  font-family: "Neue Montreal" !important;
   color: var(--grey);
   font-size: 1.6rem;
   line-height: 1.5;

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `zen-like-website`,
     siteUrl: `https://zen-like.website`,
-    description: ``,
+    description: `Minimalist web design inspiration for the modern age.`,
   },
   plugins: [],
 };

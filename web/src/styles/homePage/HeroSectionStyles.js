@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeroSectionStyles = styled.div`
   min-height: 80vh;
@@ -13,7 +13,7 @@ export const HeroSectionStyles = styled.div`
     width: 100%;
     height: 100%;
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -28,8 +28,8 @@ export const HeroSectionStyles = styled.div`
       .hero__heading {
         max-width: 450px;
         font-size: 4rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: '700';
+        font-family: "Neue Montreal" !important;
+        font-weight: "700";
         margin: 0.2rem 0;
       }
       .hero__text {
