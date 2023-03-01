@@ -1,9 +1,5 @@
 import React from "react";
 
-const IndexPage = () => (
-  <>
-    <h1>zen-like</h1>
-  </>
-);
+const IndexPage = () => null;
 
 export default IndexPage;
