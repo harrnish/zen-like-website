@@ -1,13 +1,12 @@
-import styled from 'styled-components';
-import { Link } from 'gatsby';
+import styled from "styled-components";
+import { Link } from "gatsby";
 
 export default styled(Link)`
   display: inline-block;
   max-width: 200px;
-  svg {
-    font-size: 3rem;
-    path {
-      stroke: white;
-    }
-  }
+  font-family: "Roslindale Display Condensed";
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.4em 0.8em;
 `;

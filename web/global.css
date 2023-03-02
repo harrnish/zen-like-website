@@ -21,3 +21,31 @@
   src: url("../web/src/fonts/NeueMontreal-Bold.otf") format("opentype");
   font-weight: 800;
 }
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  src: url("../web/src/fonts/RoslindaleDisplayCondensed-Light.otf")
+    format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  src: url("../web/src/fonts/RoslindaleDisplayCondensed-Regular.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  src: url("../web/src/fonts/RoslindaleDisplayCondensed-Medium.otf")
+    format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  src: url("../web/src/fonts/RoslindaleDisplayCondensed-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+}

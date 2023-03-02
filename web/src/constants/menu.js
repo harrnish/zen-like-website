@@ -1,18 +1,18 @@
 export const menu = [
   {
-    title: "Home",
-    path: "/",
+    title: "Info",
+    path: "/info",
   },
-  {
-    title: "Collection",
-    path: "/collection",
-  },
-  {
-    title: "Categories",
-    path: "/categories",
-  },
-  {
-    title: "Tags",
-    path: "/tags",
-  },
+  // {
+  //   title: "Collection",
+  //   path: "/collection",
+  // },
+  // {
+  //   title: "Categories",
+  //   path: "/categories",
+  // },
+  // {
+  //   title: "Tags",
+  //   path: "/tags",
+  // },
 ];
